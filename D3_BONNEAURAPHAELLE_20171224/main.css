@@ -1,0 +1,161 @@
+/*
+font-family: 'Spectral SC', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body{
+
+
+}
+
+header{
+min-height:100vh;
+background-color: rgb(0, 0, 255);
+background-image: url('images/IMG_18662.jpg');
+background-repeat:no-repeat;
+background-position: top center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+@media (min-width: 960px) {
+  header {
+    background-image: url('images/IMG_18661.jpg');
+  }
+
+}
+
+section{
+
+}
+
+.header-content-block{
+  font-family: 'Spectral SC', serif;
+font-size: 2em;
+background-color: #E5E5E5;
+padding: 20px;
+opacity: 0.7;
+
+}
+
+.header-content-block h1 {
+text-align: center;
+font-size: 2em;
+}
+
+.header-content-block p {
+text-align: center;
+font-size: 1em
+}
+
+#bio {
+font-family: 'Raleway', sans-serif;
+background-color: #E5E5E5;
+padding : 20px;
+justify-content: center;
+text-align: center;
+
+}
+
+#bio h1 {
+  font-family: 'Spectral SC', serif;
+font-size: 2em;
+background-color: #E5E5E5;
+padding: 20px;
+opacity: 0.7;
+display: flex;
+justify-content: center;
+}
+
+.bio-content-block {
+
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: justify;
+
+}
+
+#comp {
+font-family: 'Raleway', sans-serif;
+background-color:#E5E5E5;
+color: #000;
+
+}
+
+#comp h1 {
+  font-family: 'Spectral SC', serif;
+font-size: 2em;
+background-color: #E5E5E5;
+padding: 20px;
+opacity: 0.7;
+display: flex;
+justify-content: center;
+}
+
+.comp-section-content {
+display: flex;
+justify-content: space-around;
+}
+
+.comp-content {
+margin : 20px;
+width: auto;
+background-color: #c7c7c7;
+max-width: 400px;
+
+}
+.com-content h1{
+ font-size: 2em;
+
+}
+
+.comp-content h2 {
+font-size: 1.5em;
+padding-left: 20px;
+padding-top: 20px;
+
+}
+.comp-content p{
+  padding : 1em;
+}
+
+.comp-content img {
+  width : 100%
+}
+
+.comp-content a {
+display: block;
+padding: 1em;
+float: right;
+}
+
+#portfolio{
+font-family: 'Raleway', sans-serif;
+background-color: #E5E5E5;
+}
+
+#portfolio h1 {
+  font-family: 'Spectral SC', serif;
+font-size: 2em;
+background-color: #E5E5E5;
+padding: 20px;
+opacity: 0.7;
+display: flex;
+justify-content: center;
+}
+
+.portfolio-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.portfolio-content-item {
+  margin : 20px;
+  width: auto;
+
+}
