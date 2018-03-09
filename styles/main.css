@@ -1,0 +1,29 @@
+.char1 {
+  color : red;
+  font-size: 4em;
+  font-family: 'Butcherman', cursive;
+}
+
+.char2 {
+  color : green;
+  font-size: 5em;
+font-family: 'Great Vibes', cursive;
+}
+
+.char3{
+  color : blue;
+  font-size: 3em;
+font-family: 'Butcherman', cursive;
+}
+
+.char4{
+  color : pink;
+  font-size: 4em;
+  font-family: 'Great Vibes', cursive;
+}
+
+.char6{
+  color : orange;
+font-size: 3em;
+font-family: 'Butcherman', cursive;
+}

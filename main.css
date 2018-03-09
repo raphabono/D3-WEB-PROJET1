@@ -21,8 +21,190 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-
 }
+
+.char1 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char1:hover {
+transform: rotateX(180deg);
+}
+
+
+.char2 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char2:hover {
+transform : rotateX(55deg);
+}
+
+.char3 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char3:hover {
+transform : rotateX(40deg);
+}
+
+
+.char4 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char4:hover {
+transform : rotateX(180deg);
+}
+
+.char5 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char5:hover {
+transform : rotateX(60deg);
+}
+
+.char6 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char6:hover {
+transform : rotateX(30deg);
+}
+
+.char7 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char7:hover {
+transform : rotateZ(45deg);
+}
+
+.char8 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char8:hover {
+transform : rotateZ(315deg);
+}
+
+.char9 {
+  color: #4b3832;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char9:hover {
+transform : rotateZ(90deg) ;
+}
+
+.char11 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char11:hover {
+transform : rotateZ(90deg) ;
+}
+
+.char11 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char11:hover {
+transform : rotateX(45deg) ;
+}
+
+.char12 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char12:hover {
+transform : rotateZ(45deg) ;
+}
+
+.char13 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char13:hover {
+transform : rotateZ(90deg) ;
+}
+
+.char14 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char14:hover {
+transform : rotateZ(45deg) ;
+}
+
+.char15 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char15:hover {
+transform : rotateX(30deg) ;
+}
+
+.char15 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char15:hover {
+transform : rotateX(30deg) ;
+}
+
+.char16 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char16:hover {
+transform : rotateX(45deg) ;
+}
+
+.char17 {
+  color: #3C2F2F;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.char17:hover {
+transform : rotateZ(45deg) ;
+}
+
 @media (min-width: 960px) {
   header {
     background-image: url('images/IMG_18661.jpg');

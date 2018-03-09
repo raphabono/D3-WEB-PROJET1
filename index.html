@@ -5,8 +5,13 @@
     <title>This is the web page</title>
   <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
-
+  <link rel="stylesheet" href="styles/colorbox.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Spectral+SC" rel="stylesheet">
+
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/jquery.colorbox-min.js"></script>
+  <script src="scripts/jquery.lettering.js"></script>
+
 
   </head>
   <body>
@@ -14,7 +19,7 @@
 <header>
   <div class="header-content-block">
 
-    <h1>Raphaëlle Bonneau</h1>
+    <h1 class="fancy_title">Raphaëlle Bonneau</h1>
     <p>Etudiante en design graphique</p>
 
   </div>
@@ -64,32 +69,39 @@
             <div class="portfolio-content">
                 <div class="portfolio-content-item">
                   <img src="images/ilustrationweb.png" alt="This is a protfolio item">
-                  <h2><a href="#">Travail d'illustration sur le format & le sens de lecture</a></h2>
+                  <h2><a class='gallery' href="images/ilustrationweb.png">Travail d'illustration sur le format & le sens de lecture</a></h2>
                 </div>
                 <div class="portfolio-content-item">
                   <img src="images/idvisweb.png" alt="This is a protfolio item">
-                  <h2><a href="#">Travail d'identité visuelle : Bordeaux Tendance</a></h2>
+                  <h2><a class='gallery' href="images/idvisweb.png">Travail d'identité visuelle : Bordeaux Tendance</a></h2>
                 </div>
                 <div class="portfolio-content-item">
                   <img src="images/editionweb.png" alt="This is a protfolio item">
-                  <h2><a href="#">Travail d'édition : à la manière de David Carson, à partir du mot "construction"</a></h2>
+                  <h2><a class='gallery' href="images/editionweb.png">Travail d'édition : à la manière de David Carson, à partir du mot "construction"</a></h2>
                 </div>
                 <div class="portfolio-content-item">
                   <img src="images/dioptazeweb.png" alt="This is a protfolio item">
-                  <h2><a href="#">Travail de mise en page : magazine ésotérique</a></h2>
+                  <h2><a class='gallery' href="images/dioptazeweb.png">Travail de mise en page : magazine ésotérique</a></h2>
                 </div>
                 <div class="portfolio-content-item">
                   <img src="images/typoweb.png" alt="This is a protfolio item">
-                  <h2><a href="#">Travail de typographie pour l'évènement 36 days of type</a></h2>
+                  <h2><a class='gallery' href="images/typoweb.png">Travail de typographie pour l'évènement 36 days of type</a></h2>
                 </div>
                 <div class="portfolio-content-item">
                   <img src="images/typojeuweb.png" alt="This is a protfolio item">
-                  <h2><a href="#">Travail de typographie : créer un jeu de société à l'identité visuelle uniquement typographique.</a></h2>
+                  <h2><a class='gallery' href="images/typojeuweb.png">Travail de typographie : créer un jeu de société à l'identité visuelle uniquement typographique.</a></h2>
                 </div>
             </div>
 
-          </section>
+            <script>
+            	  $(document).ready(function() {
+            	    $(".fancy_title").lettering();
+            	  });
+            </script>
 
+            <script>
+      jQuery('a.gallery').colorbox({opacity:0.5, rel:'group1'});
+                </script>
 <footer>
 
 </footer>
